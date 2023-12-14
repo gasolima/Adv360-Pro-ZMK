@@ -1,3 +1,33 @@
+macro_spaceswitcherp: macro_spaceswitcherp{
+compatible = "zmk,behavior-macro";
+label = "macro_spaceswitcherp";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_SHIFT>, <&kp P>;
+};
+macro_spaceswitchero: macro_spaceswitchero{
+compatible = "zmk,behavior-macro";
+label = "macro_spaceswitchero";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_SHIFT>, <&kp O>;
+};
+macro_spaceswitcheri: macro_spaceswitcheri{
+compatible = "zmk,behavior-macro";
+label = "macro_spaceswitcheri";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_SHIFT>, <&kp I>;
+};
+macro_spaceswitcheru: macro_spaceswitcheru{
+compatible = "zmk,behavior-macro";
+label = "macro_spaceswitcheru";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_SHIFT>, <&kp U>;
+};
+macro_spaceswitchery: macro_spaceswitchery{
+compatible = "zmk,behavior-macro";
+label = "macro_spaceswitchery";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RIGHT_CONTROL>, <&kp LEFT_SHIFT>, <&kp Y>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
